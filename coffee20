@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Craft Coffee Beans Store</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Craft Coffee Beans</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <!-- List your featured coffee beans here -->
+            <div class="product">
+                <img src="coffee1.jpg" alt="Coffee Bean 1">
+                <h3>Coffee Bean 1</h3>
+                <p>Description of Coffee Bean 1.</p>
+                <p>Price: $12.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="coffee2.jpg" alt="Coffee Bean 2">
+                <h3>Coffee Bean 2</h3>
+                <p>Description of Coffee Bean 2.</p>
+                <p>Price: $14.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Craft Coffee Beans</p>
+    </footer>
+</body>
+</html>
